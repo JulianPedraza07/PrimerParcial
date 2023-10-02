@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header {
+    display: flex;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+.logo h2{
+    color: white;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: chartreuse;
+}
+.paginaprincipal{
+    width: 100%;
+}
+.paginaprincipal .contenido{
+    width: 85%;
+    margin: 20px auto;
+}
+.paginaprincipal .contenido .titulo{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.paginaprincipal .contenido .titulo h2{
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+}
+.paginaprincipal .contenido .titulo p{
+    font-size: 18px;
+    color: black;
+    margin-top: 20px;
+    
+}
+.paginaprincipal .contenido .tarjetas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: 25px auto;
+}
+.paginaprincipal .contenido .tarjetas .tarjeta{
+    width: 100%;
+    background-color: whitesmoke;
+    position: relative;
+}
+.paginaprincipal .contenido .tarjetas .tarjeta img{
+    width: 100%;
+    height: auto;
+}
+.paginaprincipal .contenido .tarjetas .tarjeta .noticia-1{
+    padding: 15px 20px;
+}
+.paginaprincipal .contenido .tarjetas .tarjeta .noticia-1 h4{
+    font-size: 24px;
+    color: black;
+}
+.paginaprincipal .contenido .tarjetas .tarjeta .noticia-1 p{
+    font-size: 16px;
+    margin: 10px 0px;
+    color: black;
+}
+.paginaprincipal .contenido .tarjetas .tarjeta a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: blue;
+    padding: 8px 15px;
+    margin-left: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+.pie-de-pagina {
+    width: 100%;
+    background-color: black;
+}
+.pie-de-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-de-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-de-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-de-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-de-pagina .grupo-1 .box p{
+    color: white;
+    margin-bottom: 10px;
+}
+.pie-de-pagina .grupo-1 .box .facebook img{
+    height: 30px;
+    margin-right: 10px;
+}
+.pie-de-pagina .grupo-1 .box .instagram img{
+    height: 30px;
+    margin-right: 10px;
+}
+.pie-de-pagina .grupo-1 .box .twitter img{
+    height: 30px;
+    margin-right: 10px;
+}
+.pie-de-pagina .grupo-1 .box .youtube img{
+    height: 30px;
+    margin-right: 10px;
+}
+.pie-de-pagina .grupo-2{
+    background-color: rgb(0, 0, 22);
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+}
+.pie-de-pagina .grupo-2 small{
+    font-size: 15px;
+}
